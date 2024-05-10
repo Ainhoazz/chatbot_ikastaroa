@@ -41,7 +41,8 @@ keywords = {
     "matricularme": "request_matricula",
     "matricular": "request_matricula",
     "matriculacion": "request_matricula",
-   
+    #Ariketa 2.2.3  ¿Cuándo son las fechas de las matrículas? erantzuna gehitu
+    "matriculas" : "request_matricula",
 
     "contacto" : "request_contacto",
     "telefono": "request_contacto",
