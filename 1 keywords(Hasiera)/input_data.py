@@ -44,16 +44,21 @@ keywords = {
     #Ariketa 2.2.3  ¿Cuándo son las fechas de las matrículas? erantzuna gehitu
     "matriculas" : "request_matricula",
 
+    #1. Ariketa:B- Kontaktuak bereiztu. Telefonoa eskatzen badute telefonoa soilik erantzun behar du…
+    "telefono":"request_telefono",
+    "tlfno": "request_telefono",
+    "tlfn": "request_telefono",
+
     "contacto" : "request_contacto",
-    "telefono": "request_contacto",
-    "tlfno": "request_contacto",
+    #"telefono": "request_contacto",
+    #"tlfno": "request_contacto",
     "email": "request_contacto",
     "direccion": "request_contacto",
     "localizacion": "request_contacto",
     "sitio": "request_contacto",
     "encuentra": "request_contacto",
     "e-mail": "request_contacto",
-    "tlfn": "request_contacto",
+    #"tlfn": "request_contacto",
     "llamar": "request_contacto",
     "llamada": "request_contacto",
     "correo": "request_contacto",
@@ -77,7 +82,12 @@ keywords = {
     "formacion": "request_oferta",
     "formaciones": "request_oferta",
     
-
+    #1. Ariketa: A- Erabiltzaileak inskripzio gaia aipatzen duenean aurre-matrikulari edo matrikulari buruz ari duen galdetu behar du.
+    "inscripcion": "request_inscripcion",
+    "inscribirse": "request_inscripcion",
+    "inscribirme": "request_inscripcion",
+    "inscribo": "request_inscripcion",
+    "inscribir": "request_inscripcion",
 }
 
 
@@ -90,7 +100,10 @@ answer = {
     "request_matricula": "Para realizar la matrícula debes esperar a julio. La matrícula puedes realizarla aquí: xxx (URL)", 
     "request_contacto" : "Los datos de contacto del centro son: Teléfono: XXX XXX XXX. Email: xxxxxxx@gmail.com ",
     "request_oferta": "El centro tiene una gran oferta de formaciones para realizar. Puedes informarte sobre ellas aquí: xxx (URL)",
-
+    #1. Ariketa: A- Erabiltzaileak inskripzio gaia aipatzen duenean aurre-matrikulari edo matrikulari buruz ari duen galdetu behar du.
+    "request_inscripcion": "¿Sobre que desea la información? ¿Matrícula o pre-matrícula?",
+    #1. Ariketa:B- Kontaktuak bereiztu. Telefonoa eskatzen badute telefonoa soilik erantzun behar du…
+    "request_telefono": "El teléfono es el siguiente: XXX XXX XXX.",
     "request_unknown": "¡Vaya! Parece que no te he entendido muy bien. Puedo ayudarte a contactar con el centro, proporcionarte información sobre matricula y oferta"
 }
 
