@@ -5,14 +5,24 @@ keywords = {
     "buenos": "request_saludo",
     "buen": "request_saludo",
     "holi": "request_saludo",
-    
+
+    #2.Ariketa:Saiatu chatbot-ean galderak egiten definitutako gaiei buruz, eta ikusten duzunean ez dituela behar bezala erantzuten, egin beharreko aldaketak.
+    "buenas": "request_saludo",
+    "noches": "request_saludo",
+    "tardes": "request_saludo",
+
 
     "adios": "request_despedida",
     "hasta": "request_despedida",
     "luego": "request_despedida",
     "vista": "request_despedida",
     "agur": "request_despedida",
-
+   
+    #2.Ariketa:Saiatu chatbot-ean galderak egiten definitutako gaiei buruz, eta ikusten duzunean ez dituela behar bezala erantzuten, egin beharreko aldaketak.
+    "aio": "request_despedida",
+    "pronto": "request_despedida",
+    "chao": "request_despedida",
+    
  
     "horario": "request_contacto_horarios",
     "hora": "request_contacto_horarios",
@@ -32,9 +42,10 @@ keywords = {
     "pre-matricularme": "request_pre_matricula",
     "pre-matricular": "request_pre_matricula",
     "pre-matriculacion": "request_pre_matricula",
-    "inscripcion": "request_pre_matricula",
-    "inscribirme": "request_pre_matricula",
-    "inscribir": "request_pre_matricula",
+    #1. Ariketa: A- Erabiltzaileak inskripzio gaia aipatzen duenean aurre-matrikulari edo matrikulari buruz ari duen galdetu behar du.
+    #"inscripcion": "request_pre_matricula",
+    #"inscribirme": "request_pre_matricula",
+    #"inscribir": "request_pre_matricula",
     
 
     "matricula" : "request_matricula",
@@ -78,16 +89,34 @@ keywords = {
     "curso": "request_oferta",
     "titulaciones": "request_oferta",
     "titulos": "request_oferta",
+
+     #2.Ariketa:Saiatu chatbot-ean galderak egiten definitutako gaiei buruz, eta ikusten duzunean ez dituela behar bezala erantzuten, egin beharreko aldaketak.
+    "titulo": "request_oferta",
+   
     "titulacion": "request_oferta",
     "formacion": "request_oferta",
     "formaciones": "request_oferta",
-    
+
     #1. Ariketa: A- Erabiltzaileak inskripzio gaia aipatzen duenean aurre-matrikulari edo matrikulari buruz ari duen galdetu behar du.
     "inscripcion": "request_inscripcion",
     "inscribirse": "request_inscripcion",
     "inscribirme": "request_inscripcion",
     "inscribo": "request_inscripcion",
     "inscribir": "request_inscripcion",
+
+    #2.Ariketa:Saiatu chatbot-ean galderak egiten definitutako gaiei buruz, eta ikusten duzunean ez dituela behar bezala erantzuten, egin beharreko aldaketak.
+    "online": "request_matricula_online",
+    "web": "request_matricula_online",
+    "registro": "request_matricula_online",
+    "proceso": "request_matricula_online",
+    "plataforma": "request_matricula_online",
+
+    #2.Ariketa:Saiatu chatbot-ean galderak egiten definitutako gaiei buruz, eta ikusten duzunean ez dituela behar bezala erantzuten, egin beharreko aldaketak.
+    "ayuda ": "request_ayuda_matricula",
+    "asistencia": "request_ayuda_matricula",
+    "guía": "request_ayuda_matricula",
+    "orientación": "request_ayuda_matricula",
+    "apoyo": "request_ayuda_matricula",
 }
 
 
@@ -104,6 +133,11 @@ answer = {
     "request_inscripcion": "¿Sobre que desea la información? ¿Matrícula o pre-matrícula?",
     #1. Ariketa:B- Kontaktuak bereiztu. Telefonoa eskatzen badute telefonoa soilik erantzun behar du…
     "request_telefono": "El teléfono es el siguiente: XXX XXX XXX.",
+
+    #2.Ariketa:Saiatu chatbot-ean galderak egiten definitutako gaiei buruz, eta ikusten duzunean ez dituela behar bezala erantzuten, egin beharreko aldaketak.
+    "request_matricula_online": "El centro ofrece un proceso de matrícula y pre-matrícula en línea para mayor comodidad. Puedes acceder a nuestra plataforma de matrícula en nuestra página web  xxx (URL)",
+    "request_ayuda_matricula": "Nuestro equipo de admisiones está disponible para brindarte asistencia y orientación durante todo el proceso de matrícula y pre-matrícula. No dudes en contactarnos si necesitas ayuda.",
+
     "request_unknown": "¡Vaya! Parece que no te he entendido muy bien. Puedo ayudarte a contactar con el centro, proporcionarte información sobre matricula y oferta"
 }
 
