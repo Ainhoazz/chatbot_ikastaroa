@@ -117,6 +117,45 @@ keywords = {
     "guía": "request_ayuda_matricula",
     "orientación": "request_ayuda_matricula",
     "apoyo": "request_ayuda_matricula",
+
+    #3.Ariketa: Gure Chatbot-ari gai berri bat gehitzea erabaki dugu. Proiektuan beharrezko aldaketak egin.
+    #Gai berria: Ikastetxearen instalazioak
+    "instalacion": "request_instalaciones",
+    "instalaciones": "request_instalaciones",    
+    "biblioteca": "request_instalaciones",
+    "laboratorios": "request_instalaciones",
+    "gimnasio": "request_instalaciones",
+    "cafetería": "request_instalaciones",
+    "aparcamiento": "request_instalaciones",
+    "wifi": "request_instalaciones",
+
+    # Kiroldegia
+    "deportivas": "request_instalaciones_deportivas",
+    "deportivo": "request_instalaciones_deportivas",
+    "deporte": "request_instalaciones_deportivas",
+    "deportes": "request_instalaciones_deportivas",
+    "canchas": "request_instalaciones_deportivas",
+    "pistas": "request_instalaciones_deportivas",
+    "actividades": "request_instalaciones_deportivas",
+    "fisicas": "request_instalaciones_deportivas",
+    "deporte": "request_instalaciones_deportivas",
+    "recreativas": "request_instalaciones_deportivas",
+    "actividades recreativas": "request_instalaciones_deportivas",
+
+    # zerbitzuak
+    "cafeteria": "request_cafeteria",
+    "comida": "request_cafeteria",
+    "almuerzo": "request_cafeteria",
+    "merienda": "request_cafeteria",
+
+    "medicos": "request_servicios_medicos",
+    "medico": "request_servicios_medicos",
+    "salud": "request_servicios_medicos",
+    "asistencia": "request_servicios_medicos",
+   
+    "seguridad": "request_seguridad",
+    "vigilancia": "request_seguridad",
+
 }
 
 
@@ -136,7 +175,16 @@ answer = {
 
     #2.Ariketa:Saiatu chatbot-ean galderak egiten definitutako gaiei buruz, eta ikusten duzunean ez dituela behar bezala erantzuten, egin beharreko aldaketak.
     "request_matricula_online": "El centro ofrece un proceso de matrícula y pre-matrícula en línea para mayor comodidad. Puedes acceder a nuestra plataforma de matrícula en nuestra página web  xxx (URL)",
-    "request_ayuda_matricula": "Nuestro equipo de admisiones está disponible para brindarte asistencia y orientación durante todo el proceso de matrícula y pre-matrícula. No dudes en contactarnos si necesitas ayuda.",
+    "request_ayuda_matricula": "Nuestro equipo de admisiones está disponible para brindarte asistencia y orientación durante todo el proceso de matrícula y pre-matrícula. No dudes en contactarnos si necesitas ayuda",
+    
+    #3.Ariketa: Gure Chatbot-ari gai berri bat gehitzea erabaki dugu. Proiektuan beharrezko aldaketak egin.
+    #Gai berria: Ikastetxearen instalazioak
+    "request_instalaciones": "Nuestras instalaciones incluyen una moderna biblioteca, laboratorios equipados, un gimnasio, una cafetería, amplias zonas de aparcamiento y acceso a Wi-Fi gratuitu",
+    "request_instalaciones_deportivas": "El centro ofrece instalaciones deportivas incluyen canchas y pistas para una variedad de deportes, así como actividades recreativas",
+    "request_cafeteria": "El centro ofrece una cafetería con una variedad de opciones de comida y bebida para satisfacer tus necesidades",
+    "request_servicios_medicos": "El centro disponibles de servicio médico para atender cualquier necesidad de salud que puedas tener",
+    "request_seguridad": "El centro ofrece con medidas de seguridad y vigilancia para garantizar un entorno seguro para todo",
+
 
     "request_unknown": "¡Vaya! Parece que no te he entendido muy bien. Puedo ayudarte a contactar con el centro, proporcionarte información sobre matricula y oferta"
 }
